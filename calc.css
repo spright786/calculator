@@ -1,0 +1,47 @@
+.horbox {
+    width: 600px;
+    height: 100px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbox {
+    width: 600px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exponent {
+    font-size: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.calcbutton {
+    width: 145px;
+    height: 80px;
+    background-color: grey;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

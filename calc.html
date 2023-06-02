@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="calc.css">
+</head>
+
+<body>
+
+    <div class="topbox">
+        <p id="display"></p>
+    </div>
+    <div class="horbox">
+        <div class="calcbutton">%</div>
+        <div class="calcbutton">CE</div>
+        <div class="calcbutton" onclick="cClicked()">C</div>
+        <div class="calcbutton" onclick="backClicked()"><img class="logo" src="images/backspacelogo.png"></div>
+    </div>
+    <div class="horbox">
+        <div class="calcbutton">1/x</div>
+        <div class="calcbutton">x<span class="exponent">2</span></div>
+        <div class="calcbutton">&radic;x</div>
+        <div class="calcbutton" onclick="opClicked('/')">/</div>
+    </div>
+    <div class="horbox">
+        <div class="calcbutton" onclick="numClicked(7)">7</div>
+        <div class="calcbutton" onclick="numClicked(8)">8</div>
+        <div class="calcbutton" onclick="numClicked(9)">9</div>
+        <div class="calcbutton" onclick="opClicked('*')">*</div>
+    </div>
+    <div class="horbox">
+        <div class="calcbutton" onclick="numClicked(4)">4</div>
+        <div class="calcbutton" onclick="numClicked(5)">5</div>
+        <div class="calcbutton" onclick="numClicked(6)">6</div>
+        <div class="calcbutton" onclick="opClicked('-')">-</div>
+    </div>
+    <div class="horbox">
+        <div class="calcbutton" onclick="numClicked(1)">1</div>
+        <div class="calcbutton" onclick="numClicked(2)">2</div>
+        <div class="calcbutton" onclick="numClicked(3)">3</div>
+        <div class="calcbutton" onclick="opClicked('+')">+</div>
+    </div>
+    <div class="horbox">
+        <div class="calcbutton">+/-</div>
+        <div class="calcbutton" onclick="numClicked(0)">0</div>
+        <div class="calcbutton" onclick="numClicked('.')">.</div>
+        <div class="calcbutton" onclick="eqClicked()">=</div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</body>
+
+</html>
